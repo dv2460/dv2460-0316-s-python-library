@@ -4,14 +4,11 @@ import cmath
 cont = True
 while cont:
     print("\n将方程化成标准形式 ax^2 + bx + c = 0 后输入")
-    print("输入二次项系数 a:")
-    a = float(input())
+    a = float(input("输入二次项系数 a:"))
 
-    print("输入一次项系数 b:")
-    b = float(input())
+    b = float(input("输入一次项系数 b:"))
 
-    print("输入常数项 c:")
-    c = float(input())
+    c = float(input("输入常数项 c:"))
 
     if a == 0:
         if b == 0 and c != 0:

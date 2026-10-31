@@ -48,3 +48,4 @@ while cont:
                 print("方程无解，求解结束")
                 # 用户不继续求解，则结束本次计算
     cont = input("本次求解已结束，是否继续？(回答yes/no)") == "yes"
+#pulltest
